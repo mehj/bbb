@@ -1,6 +1,6 @@
 {
   "name": "bbb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "dependencies": {
     "mailparser": "~0.4.1",
     "speakingurl": "~0.8.4",
-    "dirty": "~0.9.9"
+    "mongoskin": "~0.6.1"
   }
 }
