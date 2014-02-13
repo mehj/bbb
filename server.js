@@ -42,7 +42,6 @@
       }).on('error', function(err) {
         return console.log('Oh my!', err);
       }).on('close', function() {
-        return console.log('Stream closed');
       }).on('end', function() {
         res.write('<p><a href="/from/' + key + '">More...</a></p>');
         return res.end(ad);
